@@ -27,3 +27,4 @@ const Api = (() => {
 
 })()
 
+Api.getList()
