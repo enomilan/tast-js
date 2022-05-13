@@ -99,3 +99,9 @@ const View = (() => {
     
     })()
 
+
+
+const Model = ((api, view) => {
+
+
+    const { getList, deleteList, addList } = api
