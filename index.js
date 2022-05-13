@@ -115,3 +115,5 @@ const Model = ((api, view) => {
     }
 
     return { getList, deleteList, List, addList}
+
+})(Api)
