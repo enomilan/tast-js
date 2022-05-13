@@ -44,3 +44,8 @@ const View = (() => {
     }
 
     const comp = {
+    }
+
+    const render = (el, tmp) => {
+        el.innerHTML = tmp
+    }
