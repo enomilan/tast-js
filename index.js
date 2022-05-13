@@ -71,3 +71,8 @@ const View = (() => {
 
         return tmp;
     }
+
+    const createComp = (arr) => {
+        let tmp = ''
+
+        arr.forEach(completed => {
