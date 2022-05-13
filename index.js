@@ -76,3 +76,20 @@ const View = (() => {
         let tmp = ''
 
         arr.forEach(completed => {
+
+            if (completed.isCompleted === true) {
+            
+                tmp += `
+                <ul>
+                    
+                    <li>${completed.content}</li>
+                    <button>Move to Pending</button>
+                    <button>Edit</button>
+                    <button class="deleteTask" id=${completed.id}>Delete</button>
+    
+                </ul>
+                `}
+    
+            })
+
+            
