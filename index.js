@@ -92,4 +92,10 @@ const View = (() => {
     
             })
 
-            
+            return tmp;
+        }
+    
+        return { render, createPend, createComp, dom }
+    
+    })()
+
