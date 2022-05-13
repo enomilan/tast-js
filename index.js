@@ -49,3 +49,25 @@ const View = (() => {
     const render = (el, tmp) => {
         el.innerHTML = tmp
     }
+
+    const createPend = (arr) => {
+        let tmp = ''
+        
+        arr.forEach(pending => {
+
+            if (pending.isCompleted === false) {
+            tmp += `
+            <ul>
+                
+                <li>${pending.content}</li>
+                <button>Edit</button>
+                <button class='deleteTask' id=${pending.id}>Delete</button>
+                <button>Move to Complete</button>
+
+            </ul>
+            `}
+
+        })
+
+        return tmp;
+    }
