@@ -28,3 +28,19 @@ const Api = (() => {
 })()
 
 Api.getList()
+
+const View = (() => {
+
+    const dom = {
+        inputForm: '#inputForm',
+        inputField: '#inputField',
+        pending: '#pending_container',
+        completed: '#completed_container',
+        deleteTask: '.deleteTask'
+    }
+
+    const pend = {
+        
+    }
+
+    const comp = {
