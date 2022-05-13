@@ -105,3 +105,11 @@ const Model = ((api, view) => {
 
 
     const { getList, deleteList, addList } = api
+
+    class List {
+        constructor( title, completed) {
+            this.title = title
+            this.completed = false
+        }
+
+    }
