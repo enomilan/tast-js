@@ -23,3 +23,8 @@
     height: 35px;
 
   }
+
+  .complete  {
+    position: absolute;
+    right: 5px;
+  }
