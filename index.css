@@ -14,3 +14,12 @@
     position: relative;
 
   }
+
+  .pending {
+
+    border: 1px solid black;
+    background-color: aquamarine;
+    position: relative;
+    height: 35px;
+
+  }
